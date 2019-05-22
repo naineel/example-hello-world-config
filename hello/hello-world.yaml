@@ -9,7 +9,7 @@ spec:
     container:
       image: docker/whalesay
       command: [cowsay]
-      args: ["hello world"]
+      args: ["huzzaaaa"]
       resources:                # limit the resources
         limits:
           memory: 32Mi
